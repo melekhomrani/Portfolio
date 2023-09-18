@@ -110,17 +110,27 @@ const technologies = [
 ];
 
 const experiences = [
+  
   {
     title: "Full Stack Developer",
-    company_name: "MSK Technologies",
-    icon: MSKTechnologies,
+    company_name: "WEVIOO",
+    icon: wevioo,
     iconBg: "#FFF",
-    date: "June 2022 - August 2022",
+    date: "September 2023 - Present",
     points: [
-      "Develop a web application for grammar and spelling correction using artificial intelligence, React, Node.js, and MongoDB for the backend. ",
-      "Implement artificial intelligence algorithms to analyze text and automatically detect grammatical and spelling errors. ",
-      "Utilize Node.js to handle data processing logic. ",
-      "Employ MongoDB as the chosen database management system."
+      
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Iberis",
+    icon: iberis,
+    iconBg: "#FFF",
+    date: "August 2023 - September 2023",
+    points: [
+      "Contribute to the rapid creation of PDF invoices and the simplification of personalized quotes in a few clicks.",
+      "Participate in the automation of payment reminders.",
+      "Involved in optimizing inventory and expense management, aiming to boost sales using Laravel, MySQL, and Blade templates technologies.",
     ],
   },
   {
@@ -138,33 +148,17 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "Iberis",
-    icon: iberis,
+    company_name: "MSK Technologies",
+    icon: MSKTechnologies,
     iconBg: "#FFF",
-    date: "August 2023 - September 2023",
-    // Contribuer à la création rapide de factures PDF et à la
-    // simplification des devis personnalisés en quelques clics.
-    // Participer à l'automatisation des rappels de paiements.
-    // Impliquer dans l'optimisation de la gestion des stocks et des
-    // dépenses, visant à stimuler les ventes en utilisant les
-    // technologies Laravel, MySQL et Blade templates
+    date: "June 2022 - August 2022",
     points: [
-      "Contribute to the rapid creation of PDF invoices and the simplification of personalized quotes in a few clicks.",
-      "Participate in the automation of payment reminders.",
-      "Involved in optimizing inventory and expense management, aiming to boost sales using Laravel, MySQL, and Blade templates technologies.",
+      "Develop a web application for grammar and spelling correction using artificial intelligence, React, Node.js, and MongoDB for the backend. ",
+      "Implement artificial intelligence algorithms to analyze text and automatically detect grammatical and spelling errors. ",
+      "Utilize Node.js to handle data processing logic. ",
+      "Employ MongoDB as the chosen database management system."
     ],
-
   },
-  {
-    title: "Full Stack Developer",
-    company_name: "WEVIOO",
-    icon: wevioo,
-    iconBg: "#FFF",
-    date: "September 2023 - Present",
-    points: [
-      
-    ],
-  }
 ];
 
 
