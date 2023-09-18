@@ -1,4 +1,3 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -55,11 +54,11 @@ const About = () => {
         With a sharp learning curve, I readily adapt to new technologies
         and closely collaborate with clients to develop efficient, scalable,
         and user-friendly solutions that effectively address real-world challenges.
-        Together, let's transform your ideas into tangible, innovative realities!
+        Together, {'let\'s'} transform your ideas into tangible, innovative realities!
       </motion.p>
       <button className='cursor-text flex flex-row gap-5 mt-10'>
         <a
-          href='https://drive.google.com/file/d/1yfk0VmsbyXvIz7Wwrmj17W_w3XiZyUWx/view?usp=sharing'
+          href={resume}
           target='_blank'
           rel='noreferrer'
           className='cursor-pointer flex justify-center items-center gap-2 bg-[#915EFF] px-5 py-2 rounded-lg text-white font-medium text-[16px] hover:bg-[#7F4FFF] transition-all duration-300'

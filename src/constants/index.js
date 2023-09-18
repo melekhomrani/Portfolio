@@ -1,6 +1,6 @@
 import {
-  mobile,
-  backend,
+  devops,
+  game,
   web,
   javascript,
   typescript,
@@ -16,6 +16,8 @@ import {
   docker,
   MSKTechnologies,
   esprit,
+  iberis,
+  wevioo,
   springboot,
   sofa,
   esprit_reclamation,
@@ -43,12 +45,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "DevOps",
+    icon: devops,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Game Developer",
+    icon: game,
   },
 ];
 
@@ -109,7 +111,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     company_name: "MSK Technologies",
     icon: MSKTechnologies,
     iconBg: "#FFF",
@@ -122,7 +124,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Full Stack Developer",
     company_name: "Esprit",
     icon: esprit,
     iconBg: "#FFF",
@@ -134,6 +136,35 @@ const experiences = [
       "Implement a responsive user interface using ReactJS.",
     ],
   },
+  {
+    title: "Full Stack Developer",
+    company_name: "Iberis",
+    icon: iberis,
+    iconBg: "#FFF",
+    date: "August 2023 - September 2023",
+    // Contribuer à la création rapide de factures PDF et à la
+    // simplification des devis personnalisés en quelques clics.
+    // Participer à l'automatisation des rappels de paiements.
+    // Impliquer dans l'optimisation de la gestion des stocks et des
+    // dépenses, visant à stimuler les ventes en utilisant les
+    // technologies Laravel, MySQL et Blade templates
+    points: [
+      "Contribute to the rapid creation of PDF invoices and the simplification of personalized quotes in a few clicks.",
+      "Participate in the automation of payment reminders.",
+      "Involved in optimizing inventory and expense management, aiming to boost sales using Laravel, MySQL, and Blade templates technologies.",
+    ],
+
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "WEVIOO",
+    icon: wevioo,
+    iconBg: "#FFF",
+    date: "September 2023 - Present",
+    points: [
+      
+    ],
+  }
 ];
 
 

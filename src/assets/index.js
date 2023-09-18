@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
+import game from "./game.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
+import devops from "./devops.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -22,6 +22,8 @@ import springboot from "./tech/springboot.png";
 
 import MSKTechnologies from "./company/msk_tech.jpg";
 import esprit from "./company/esprit.jpg";
+import iberis from "./company/iberis.png";
+import wevioo from "./company/wevioo.png";
 
 
 import sofa from "./sofa.png";
@@ -32,9 +34,9 @@ import resume from "./resume.pdf";
 
 export {
   logo,
-  backend,
+  game,
   creator,
-  mobile,
+  devops,
   web,
   github,
   menu,
@@ -53,6 +55,8 @@ export {
   springboot,
   MSKTechnologies,
   esprit,
+  iberis,
+  wevioo,
   sofa,
   esprit_reclamation,
   sallah,
